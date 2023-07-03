@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato&family=Manrope&family=Poppins:wght@400;500;600;700;800&family=Work+Sans&display=swap');
+
+
+:root{
+  /* colors */
+  --first-color: hsl(271, 91%, 43%);
+  --title-color: hsl(0, 0%, 40%);
+  --text-color: hsl(0, 0%, 50%);
+  --body-color: hsl(0, 0%, 100%);
+  --container-color: hsl(0, 0%, 93%);
+  --border-color: hsl(0, 0%, 87%);
+  --text-white:#fff;
+
+  /* font & typography */
+  --body-font:'Lato', sans-serif;
+  --second-font:'Poppins', sans-serif;
+
+}
+
+img{
+  max-width: 100%;
+}
+.container{
+  /* background-color: var(--first-color); */
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+.grid{
+  display: grid;
+  gap: 30px;
+}
+
+.section{
+  padding-block: 70px;
+}
+.section-title{
+  font-size: larger;
+  font-weight: 800px;
+  text-align: center;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  color: var(--title-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 70px 15px 35px;
+  border-radius: 14px;
+  position: relative;
+  background-color: var(--first-color);
+  color: #fff;
+  margin-top: 10px;
+
+  
+ 
+
+}
+
+
+.button-icon{
+  background-color: var(--first-color);
+  position: absolute;
+ 
+  right: 0;
+  width: 55px;
+  border-radius: 50%;
+
+}

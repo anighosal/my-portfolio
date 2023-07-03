@@ -1,0 +1,10 @@
+.contact-social-link{
+  background-color: var(--container-color);
+  color: var(--first-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  transition: all 0.3s ease;
+}

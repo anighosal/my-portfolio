@@ -1,0 +1,9 @@
+.portfolio-container{
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.portfolio-item{
+    border-color: brown;
+    border-radius: 20px;
+}

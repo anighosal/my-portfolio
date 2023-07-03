@@ -1,0 +1,36 @@
+.subtitle-center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-container{
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    row-gap: 38px;
+}
+.progress-circle{
+    width: 120px;
+    height: 120px;
+}
+.skills-title{
+    font-weight: bold;
+    font-family: var(--body-font);
+    text-align: center;
+    margin-top: 24px;
+   
+}
+
+.CircularProgressbar-path{
+    stroke: var(--first-color) !important;
+    stroke-linecap: butt !important;
+}
+
+.CircularProgressbar-trail{
+    stroke: var(---container-color
+    );
+}
+.CircularProgressbar-text{
+    fill: var(--title-color) !important;
+    font-family: var(--second-font);
+    font-size: small;
+}
